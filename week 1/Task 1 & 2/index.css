@@ -1,0 +1,45 @@
+.container {
+    margin: 0 15px;
+    text-decoration: none;
+    color:chartreuse;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 30px;
+}
+body{
+    background-color:black;
+    background: url(bg4.jpg) 100% ;
+    background-repeat:no-repeat;
+    background-size: cover;
+    
+    
+}
+
+
+h1 {
+    padding: 10px;
+    margin-top: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color:chartreuse;
+    -webkit-text-fill-color:white; /* Will o:verride color (regardless of order) */
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color:black;
+    font-size: 60px;
+    font-family:'Times New Roman', Times, serif; 
+    
+  }
+p{
+    color:chartreuse;
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:chartreuse;
+    text-align: center;
+    margin-top: 30%;
+    font-size: 40px;
+    text-decoration-color: chartreuse;
+    margin-bottom: 40px;
+    text-decoration: wavy;
+    
+}
