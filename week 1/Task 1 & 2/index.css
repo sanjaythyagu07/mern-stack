@@ -1,44 +1,115 @@
 .container {
-    margin: 0 15px;
+    margin-top: 10%;
+    margin: 10%;
+    margin-right: 0;
+    margin-left: 5%;
     text-decoration: none;
     color:chartreuse;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content:space-between;
     font-size: 30px;
 }
 body{
-    background-color:black;
-    background: url(bg4.jpg) 100% ;
-    background-repeat:no-repeat;
-    background-size: cover;
+    background:white;
+    background: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+
+
     
     
 }
-
-
-h1 {
-    padding: 10px;
-    margin-top: 50px;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-    color:chartreuse;
-    -webkit-text-fill-color:white; /* Will o:verride color (regardless of order) */
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color:black;
-    font-size: 60px;
-    font-family:'Times New Roman', Times, serif; 
+.container2{
+    width: 75vmin;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 55%;
+    left: 50%;
+    overflow: hidden;
+    box-shadow: 10px 25px 30px rgba(30,30,200,0.3);
     
+}
+.wrapper{
+    width:100%;
+    display: flex;
+    animation: slide 16s infinite;
+   
+
+}
+@keyframes slide{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(0);
+    }
+    30%{
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: translateX(-100%);
+    }
+    55%{
+        transform: translateX(-200%);
+    }
+    75%{
+        transform: translateX(-200%);
+    }
+    80%{
+        transform: translateX(-300%);
+    }
+    100%{
+        transform: translateX(-300%);
+    }
+}
+img{
+    width: 100%;
+    -webkit-mask:linear-gradient(#0000,#000);
+    mask:linear-gradient(#0000,#000);
+}
+
+h1  {
+    padding: 10px;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2em;
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    transform: translate(-50%,-50%);
+    background-image: linear-gradient(gold, gold);
+    background-size: 100% 10px;
+    background-repeat: no-repeat;
+    
+     transition: background-size .7s, background-position .5s ease-in-out;
+}
+
+a{
+    font-family: 'Bebas Neue', cursive;
+    transform: translate(-50%,-50%);
+    background-image: linear-gradient(gold, gold);
+    background-size: 100% 10px;
+    background-repeat: no-repeat;
+    transition: background-size .7s, background-position .5s ease-in-out;
+}
+    
+h1:hover {
+    background-size: 100% 100%;
+    background-position: 0% 100%;
+    transition: background-position .7s, background-size .5s ease-in-out;
   }
+a:hover{
+    background-size: 100% 100%;
+    background-position: 0% 100%;
+    transition: background-position .7s, background-size .5s ease-in-out;
+}
 p{
-    color:chartreuse;
-    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color:chartreuse;
+    
     text-align: center;
     margin-top: 30%;
     font-size: 40px;
-    text-decoration-color: chartreuse;
+    font-family: 'Bebas Neue', cursive;
     margin-bottom: 40px;
     text-decoration: wavy;
     

@@ -1,12 +1,14 @@
 body{
-    font-family: Arial, sans-serif;
-    background-color: black;
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background:white;
+    background: url(2.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
 }
 
 .div1{
@@ -18,22 +20,14 @@ body{
 }
 h1 {
     text-align: center;
-    color:chartreuse;
-    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color:chartreuse;
-    text-align: center;
+    font-family: 'Bebas Neue', cursive;
     font-size: 50px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+
 }
 label {
     font-size: 14px;
-    color:#4CAF50;
-    -webkit-text-fill-color:ghostwhite; /* Will override color (regardless of order) */
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color:black;
     text-align: center;
-    font-family:'Times New Roman', Times, serif
+    font-family: 'Bebas Neue', cursive;
 }
 
 /* Input field styles */
@@ -51,24 +45,26 @@ input[type="password"] {
 /* Submit button style */
 button {
     width: 100%;
-    background-color: #4CAF50;
+    background-color:gold;
     color: white;
     padding: 10px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
     font-size: 16px;
+    font-family: 'Bebas Neue', cursive;
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color:white;
 }
 p, a {
     text-align: center;
     display: block;
-    color: #4CAF50;
+    color:black;
     text-decoration: none;
     margin-top: 10px;
+    font-family: 'Bebas Neue', cursive;
 }
 
 a:hover {

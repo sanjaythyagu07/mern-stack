@@ -10,30 +10,23 @@ img{
 }
 
 body{
-    background-color: black;
-    color: chartreuse;
-    font-family: 'Times New Roman', Times, serif;
+    background:white;
+    background: url(3.webp);
+    background-repeat: no-repeat;
+    background-size:cover;
 
 
 }
-h2{
-    padding: 10px;
-    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color:chartreuse;
-    text-align: center;
-    font-family:'Times New Roman', Times, serif; 
 
-}
+
+
 h1{
 
     padding: 10px;
-    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color:chartreuse;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
     text-align: center;
     font-size: 60px;
-    font-family:'Times New Roman', Times, serif; 
 }
 .container{
     display: flex;
@@ -50,7 +43,7 @@ h1{
 img {
     --b: 10px;    /* the border thickness*/
     --g: 5px;     /* the gap on hover */
-    --c:chartreuse; 
+    --c:white; 
     
     padding: calc(var(--g) + var(--b));
     --_g: no-repeat linear-gradient(var(--c) 0 0);
@@ -72,8 +65,9 @@ img {
   }
   a {
     text-align: center;
+    font-family: 'Bebas Neue', cursive;
     display: block;
-    color: #4CAF50;
+    color:black;
     text-decoration: none;
     margin-top: 20px;
     font-size: 30px;
